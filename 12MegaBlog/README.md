@@ -21,3 +21,5 @@ npm i @reduxjs/toolkit react-redux react-router-dom appwrite @tinymce/tinymce-re
 > NOTE: The variable name must start with REACT_APP_VARIABLE and for vite apps it must be VITE_APPWRITE_URL 
 * To get the access of .env varialbles in app.jsx use console.log(import.meta.env.VITE_APPWRITE_URL)
 
+# Making a service
+* Made a folder names as appwrite in src
