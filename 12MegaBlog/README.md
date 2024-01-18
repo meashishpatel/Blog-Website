@@ -45,3 +45,11 @@ npm i @reduxjs/toolkit react-redux react-router-dom appwrite @tinymce/tinymce-re
 * Make a folder named as appwrite in src
 
 * ### auth.js file
+```javascript
+prefer file for the code
+```
+
+* ### config.js file
+```javascript
+prefer file for the code
+```
