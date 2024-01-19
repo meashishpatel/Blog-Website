@@ -61,7 +61,7 @@ Create the store folder in the src folder
 ## Making the components folder
 Create the components folder in the src folder
 * Make two folder inside components
-    * Header - Make a Header.jsx inside Header folder
+    * Header - Make a Header.jsx inside Header folder and LogoutBtn.jsx
     * Footer - Make a Footer.jsx inside Footer folder
 
 * Make a index.js file in the components folder to export Header and Footer
@@ -94,3 +94,6 @@ index.css
 @tailwind components;
 @tailwind utilities;
 ```
+
+### Make a new folder container
+Make a new folder container inside components and make a file inside that Container.jsx
