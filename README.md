@@ -53,3 +53,44 @@ prefer file for the code
 ```javascript
 prefer file for the code
 ```
+
+## Making the store folder
+Create the store folder in the src folder
+* Create another file in that store.js
+
+## Making the components folder
+Create the components folder in the src folder
+* Make two folder inside components
+    * Header - Make a Header.jsx inside Header folder
+    * Footer - Make a Footer.jsx inside Footer folder
+
+* Make a index.js file in the components folder to export Header and Footer
+
+## Install tailwind
+```
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+* Configure your template paths <br>
+tailwind.config.js
+```javascript
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+* Add the Tailwind directives to your CSS
+index.css
+```index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
