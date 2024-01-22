@@ -97,3 +97,9 @@ index.css
 
 ### Make a new folder container
 Make a new folder container inside components and make a file inside that Container.jsx
+
+
+## Add CORS
+* Choose website
+* Write the project name
+* Write the server's name as localhost
